@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <title>trendy</title>
+    <link rel="icon" type="image/x-icon" href="./images/fav.webp">
+  </head>
+  <body>
+    <header id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">TRENDY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="#banner">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offers">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#collections">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <section id="banner">
+      <div class="bannercon" data-aos="fade-up">
+        <h1 class="btitle">Discover Unique Styles</h1>
+        <p class="bpara">Welcome to Trendy shopy, where fashion meets creativity</p>
+        <button class="bbtn">Explore</button>
+      </div>  
+    </section>
+    <section id="Service">
+      <div class="container">
+        <h1 class="text-center mb-2 mt-5">SERVICES</h1>
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-12 col-lg-4" data-aos="fade-right">
+            <div class="card ">
+              <img src="./images/s1.avif" class="object-fit-cover" alt="..." height="460px">
+              <div class="card-body">
+                <p class="card-text text-center">MEN</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-5 mt-lg-0" data-aos="fade-down">
+            <div class="card">
+              <img src="./images/s2.avif" class="object-fit-cover" alt="..." height="460px">
+              <div class="card-body">
+                <p class="card-text text-center">WOMENS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-5 mt-lg-0" data-aos="fade-left">
+            <div class="card">
+              <img src="./images/s3.avif" class="object-fit-cover" alt="..." height="460px">
+              <div class="card-body">
+                <p class="card-text text-center">KIDS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="offers">
+      <div class="container">
+        <h1 class="text-center mb-4 mt-5">EXCLUSIVE OFFER</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/o1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/o2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/o3.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section>
+    <section id="collections">
+      <div class="container">
+        <h1 class="text-center mb-5 mt-5"> NEW COLLECTIONS</h1>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c1.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shirts</h5>
+                <p class="card-text text-danger">Get 50% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+            <img src="./images/c2.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text text-danger">Get 60% offer</p>
+              <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+            </div>
+          </div></div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card"\>
+            <img src="./images/c3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">T-shirt</h5>
+              <p class="card-text text-danger">Get 80% offer</p>
+              <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+            </div>
+          </div></div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c4.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Maxy</h5>
+                <p class="card-text text-danger">Get 50% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c5.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jean</h5>
+                <p class="card-text text-danger">Get 20% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c6.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">T-shirt</h5>
+                <p class="card-text text-danger">Get 40% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c7.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Froak</h5>
+                <p class="card-text text-danger">Get 50% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="zoom-in">
+            <div class="card">
+              <img src="./images/c8.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">T-shirt</h5>
+                <p class="card-text text-danger">Get 70% offer</p>
+                <a href="#" class="btn btn-primary position-absolute top-110 start-50 translate-middle">See more</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <div class="container">
+        <h2 class="text-center mb-4 mt-5">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                How long will the delivery take?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">It's really quick! We strive to deliver all our orders / products in the fastest time possible. Depending upon your address, the delivery time may vary between 2 - 9 working days. That still won't stop us from trying to get you your order faster. On each product's display page, you can enter your location's pin code to check when you can expect to receive the delivery.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How can I track my order?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">You can track your order as soon as it is shipped out. To know the status of your item real time, just tap on the tracking link in the email sent to you. Alternatively, you can also login to AJIO.com and visit the ‘My Account' section to know your order status.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Will all the products be shipped out together?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">We try to ship all products of an order together. However, sometimes few products of an order may get dispatched from different locations. If so, we might ship some products out first and ship the remaining in a separate shipment to ensure that you don't wait even a minute longer than you have to. We will notify you each time a shipment is dispatched or it is out for delivery; so that you can track it till we knock on your door.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                What are the various modes of payment at TRENDY?
+              </button>
+            </h2>
+            <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">You can pay using following methods of Payment: 1. Credit Card 2. Debit Card 3. Net Banking 4. E-Wallets (Paytm, MobiKwik, Freecharge and more) 5. Cash on Delivery 6. AJIO Wallet Note: All payment methods depend on your pin code, so please ensure that you check your pin code to find out the available methods of payment over there.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne11">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne11" aria-expanded="false" aria-controls="flush-collapseOne11">
+                When will my Trendy Wallet balance expire?
+              </button>
+            </h2>
+            <div id="flush-collapseOne11" class="accordion-collapse collapse" aria-labelledby="flush-headingOne11" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">While AJIO cash doesn’t expire, the other part of your AJIO wallet (Bonus points) has an expiration of 60 days.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne111">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne111" aria-expanded="false" aria-controls="flush-collapseOne111">
+                How do I return my product?
+              </button>
+            </h2>
+            <div id="flush-collapseOne111" class="accordion-collapse collapse" aria-labelledby="flush-headingOne111" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Super easy! Please login with your credentials and visit the My Account section. Select the order you want to return and click on Return/Exchange and follow the instructions on this page to obtain a Return ID.You can also view Return Creation Demo under My Account section on your phone. If you are using a PC/laptop, copy paste this link on your browser to view the https://www.ajio.com/return-creation-demo okay!
+            </div>
+          </div>
+
+        </div>
+        
+
+      </div>
+    </section>
+    <section id="icon">
+      <div class="container mt-5">
+        <div class="row p-5">
+          <div class="col-sm-12 col-md-12 col-lg-4 mt-5 px-2 icon" data-aos="zoom-in-up">
+            <i class="fa-solid fa-rotate"></i>
+            <p class="m-4">Easy Exchange</p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 mt-5 icon"data-aos="zoom-in-up">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <p class="m-4">Trust Worthy</p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 mt-5 icon" data-aos="zoom-in-up">
+            <i class="fa-solid fa-square-check"></i>
+            <p class="m-4">Assurance Quality</p>
+          </div>
+         </div>
+      </div>
+     
+    </section>
+    <section id="contact">
+      
+      <div class="container" data-aos="fade-up">
+        <h1 class="text-center mb-4 mt-5 py-4">CONTACT</h1>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary mb-4">Submit</button>
+        </form>
+      </div>
+
+    
+
+      <div class="footer">
+        <h1 class="text-center footer">© Copyright TrendyShopy All Rights Reserved</h1>
+      </div>
+    </section>
+
+    
+  </body>
+</html>
+
+<script src="./js/bootstrap.bundle.min.js" ></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
